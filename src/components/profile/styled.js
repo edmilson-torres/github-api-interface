@@ -17,6 +17,7 @@ export const WrapperUser = styled.div`
   h1 {
     margin-right: 8px;
     font-size: 1.5em;
+    padding-bottom: 5px;
   }
 
   a {
