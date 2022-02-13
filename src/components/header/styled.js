@@ -4,22 +4,28 @@ export const Wrapper = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 4px;
+  padding: 16px;
+  background-color: #f5f5f5;
 
   input {
     border: 1px solid #ccc;
-    border-radius: 8px;
-    width: 100%;
-    height: 44px;
+    border-radius: 6px;
+    margin-right: 8px;
     padding: 8px;
     font-weight: 500;
+    width: 100%;
+    &:focus {
+      outline: none;
+      border-color: #719ece;
+      box-shadow: 0 0 3px #719ece;
+    }
   }
 
   button {
     background-color: #225ed8;
     padding: 8px 16px;
-    margin: 0 16px;
-    border-radius: 8px;
+    border-radius: 6px;
+    height: 44px;
 
     &:hover {
       background-color: #2c5282;

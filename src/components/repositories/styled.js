@@ -2,48 +2,42 @@ import styled from "styled-components";
 import { Tabs, TabList, Tab, TabPanel } from "react-tabs";
 
 export const WrapperTabs = styled(Tabs)`
-  font-size: 16px;
+  font-size: 1em;
   width: 100%;
-  margin-top: 16px;
 `;
 
 export const WrapperTabList = styled(TabList)`
   list-style-type: none;
-  padding: 4px;
   display: flex;
-  margin: 0;
 `;
 WrapperTabList.tabsRole = "TabList";
 
 export const WrapperTab = styled(Tab)`
-  border-radius: 16px;
-  border: 1px solid #ccc;
-  padding: 16px;
+  /* border-radius: 6px; */
+  /* border: 1px solid #ccc; */
+  width: 100%;
+
   user-select: none;
   cursor: pointer;
   z-index: 99999;
   background-color: "#fff";
-  margin: 8px;
-
+  text-align: center;
+  padding: 8px 16px;
   &:focus {
     outline: none;
   }
 
   &.is-selected {
-    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+    /* border-color: #719ece;
+    box-shadow: 0 0 3px #719ece; */
+    border-bottom: 2px solid #fd8c73;
   }
 `;
 WrapperTab.tabsRole = "Tab";
 
 export const WrapperTabPanel = styled(TabPanel)`
-  padding: 16px;
-  border: 1px solid "#ccc";
-  display: none;
-  margin-top: -5px;
-
-  &.is-selected {
-    display: block;
-  }
+  /* border: 1px solid "#ccc"; */
 `;
 WrapperTabPanel.tabsRole = "TabPanel";
 
