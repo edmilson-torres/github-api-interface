@@ -16,6 +16,7 @@ export const lightTheme = {
   headerButtonBackground: "#f6f8fa",
   headerButtonText: "#24292f",
   a: "#0969DA",
+  noSearchImageBackground: "#f6f8fa",
 };
 
 export const darkTheme = {
@@ -26,6 +27,7 @@ export const darkTheme = {
   headerButtonBackground: "#24292f",
   headerButtonText: "#97a3b0",
   a: "#539BF5",
+  noSearchImageBackground: "#2d333b",
 };
 export const ToggleTheme = styled.button`
   position: absolute;

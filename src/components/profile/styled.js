@@ -77,8 +77,11 @@ export const WrapperUserGeneric = styled.div`
 
 export const WrapperImage = styled.img`
   border-radius: 50%;
+  border: 1px solid #333;
+  box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.2);
   width: 60px;
   margin-right: 16px;
+
   @media Screen and (min-width: 992px) {
     margin-bottom: 16px;
     width: 120px;
