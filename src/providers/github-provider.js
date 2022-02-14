@@ -58,6 +58,22 @@ const GithubProvider = ({ children }) => {
           },
         }));
       })
+      .catch(function (error) {
+        if (error.response.status === 404) {
+          setGithubState((prevState) => ({
+            ...prevState,
+            hasUser: false,
+            errorMessage: "Nenhum usuário encontrado",
+          }));
+        }
+        if (error.response.status === 403) {
+          setGithubState((prevState) => ({
+            ...prevState,
+            errorMessage: error.response.data.message,
+          }));
+        }
+        console.log(error.response.status);
+      })
       .finally(() => {
         setGithubState((prevState) => ({
           ...prevState,
