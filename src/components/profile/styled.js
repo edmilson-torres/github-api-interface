@@ -43,6 +43,17 @@ export const WrapperStatusCount = styled.div`
     text-align: center;
     padding: 16px 0px;
   }
+
+  @media Screen and (min-width: 600px) {
+    justify-content: space-around;
+  }
+  @media Screen and (min-width: 992px) {
+    justify-content: left;
+    div {
+      text-align: center;
+      padding: 16px 16px 16px 0;
+    }
+  }
 `;
 
 export const WrapperUserGeneric = styled.div`

@@ -5,9 +5,10 @@ export const Wrapper = styled.div`
   width: 100%;
   justify-content: space-between;
   padding: 16px;
-  background-color: #f5f5f5;
+  background-color: ${({ theme }) => theme.headerBackground};
 
   input {
+    color: ${({ theme }) => theme.headerText};
     border: 1px solid #ccc;
     border-radius: 6px;
     margin-right: 8px;
@@ -22,7 +23,7 @@ export const Wrapper = styled.div`
   }
 
   button {
-    background-color: #225ed8;
+    background-color: ${({ theme }) => theme.headerButtonBackground};
     padding: 8px 16px;
     border-radius: 6px;
     height: 44px;
@@ -34,7 +35,7 @@ export const Wrapper = styled.div`
 
     span {
       font-weight: bold;
-      color: #ffff;
+      color: ${({ theme }) => theme.headerButtonText};
     }
   }
 `;
