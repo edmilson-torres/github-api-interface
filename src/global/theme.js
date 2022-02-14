@@ -19,11 +19,11 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  body: "#1c2128",
-  text: "#cdd9e5",
+  body: "#22272e",
+  text: "#adbac7",
   headerBackground: "#2d333b",
   headerText: "#cdd9e5",
-  headerButtonBackground: "#373e47",
+  headerButtonBackground: "#24292f",
   headerButtonText: "#97a3b0",
   a: "#539BF5",
 };

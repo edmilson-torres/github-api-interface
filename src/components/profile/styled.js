@@ -4,12 +4,20 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  @media Screen and (min-width: 992px) {
+    padding-right: 16px;
+  }
 `;
 
 export const WrapperRow = styled.div`
   display: flex;
   align-items: flex-start;
   flex-direction: row;
+  @media Screen and (min-width: 992px) {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 `;
 
 export const WrapperUser = styled.div`
@@ -22,6 +30,9 @@ export const WrapperUser = styled.div`
 
   a {
     font-size: 1em;
+  }
+  @media Screen and (min-width: 992px) {
+    margin: 0px;
   }
 `;
 
@@ -68,4 +79,8 @@ export const WrapperImage = styled.img`
   border-radius: 50%;
   width: 60px;
   margin-right: 16px;
+  @media Screen and (min-width: 992px) {
+    margin-bottom: 16px;
+    width: 120px;
+  }
 `;
