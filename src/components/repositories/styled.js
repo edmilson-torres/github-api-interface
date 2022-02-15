@@ -30,7 +30,7 @@ export const WrapperTab = styled(Tab)`
     border-bottom: 2px solid #fd8c73;
   }
 
-  @media Screen and (min-width: 992px) {
+  @media Screen and (min-width: 1050px) {
     width: auto;
   }
 `;
@@ -48,6 +48,6 @@ WrapperTabPanel.tabsRole = "TabPanel";
 
 export const WrapperList = styled.div`
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 `;

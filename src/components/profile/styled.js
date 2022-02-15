@@ -82,7 +82,7 @@ export const WrapperImage = styled.img`
   width: 60px;
   margin-right: 16px;
 
-  @media Screen and (min-width: 992px) {
+  @media Screen and (min-width: 768px) {
     margin-bottom: 16px;
     width: 120px;
   }
