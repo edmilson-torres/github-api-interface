@@ -4,7 +4,7 @@ Instrutor [Matheus Benites](https://github.com/benits).
 
 ### Modifications
 
-- Layout modified (print of the finished project below)
+- Layout (print of the finished project below)
 - Theme dark and light with toggle button
 - Search on press Enter
 - Mobile first and responsive for tablet and desktop
