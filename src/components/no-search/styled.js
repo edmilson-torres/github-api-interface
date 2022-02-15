@@ -11,10 +11,7 @@ export const Wrapper = styled.div`
   border-radius: 6px;
   line-height: 24px;
   text-align: center;
-
-  @media Screen and (min-width: 600px) {
-    max-width: 500px;
-  }
+  max-width: 500px;
 `;
 
 export const WrapperImage = styled.img`
@@ -24,4 +21,11 @@ export const WrapperImage = styled.img`
   @media Screen and (min-width: 600px) {
     width: 220px;
   }
+`;
+
+export const WrapperConteiner = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
