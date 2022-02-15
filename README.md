@@ -16,6 +16,19 @@ Instrutor [Matheus Benites](https://github.com/benits).
 
 Print of the finished project.
 
+Mobile Light | Dark
+------------ | -------------
+<img src="https://user-images.githubusercontent.com/64763336/154128177-188c8dfb-19cf-4815-b22e-07f4cac58d32.png" width="100"> | <img src="https://user-images.githubusercontent.com/64763336/154128170-710b7935-f70e-4377-afe5-80eb6662a516.png" width="100">
+
+Tablet Light | Dark
+------------ | -------------
+<img src="https://user-images.githubusercontent.com/64763336/154128179-98c47f61-0b76-4536-92f2-047c0a4e9a3e.png" width="100"> | <img src="https://user-images.githubusercontent.com/64763336/154128171-966394c1-09f0-4c5a-b2fa-f304062446f9.png" width="100">
+
+Desktop Light | Dark
+------------ | -------------
+<img src="https://user-images.githubusercontent.com/64763336/154128173-9987f7bc-33fc-4bcb-8f1d-9af4968db341.png" width="100"> | <img src="https://user-images.githubusercontent.com/64763336/154128165-fb8d6af7-f3f2-4cc7-a790-7d21af4e311e.png" width="100">
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## About project
@@ -25,6 +38,7 @@ This repository was created in order to show how we can create a frontend applic
 We will create an application using the github public api.
 
 ### Features
+
 
 - Search infos by username
 - Search repo by username
