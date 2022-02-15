@@ -12,7 +12,7 @@ const NoSearch = () => {
       <h2>
         {githubState.errorMessage
           ? githubState.errorMessage
-          : "Bem-vindo, projeto do bootcamp Eduzz Fullstack Developer #3 da DIO, aula Criando um front-end totalmente componentizado na prática com ReactJS com o instrutor Matheus Benites"}
+          : "Bem-vindo, projeto do bootcamp Eduzz Fullstack Developer #3 da DIO, aula Criando um front-end totalmente componentizado na prática com ReactJS. Instrutor Matheus Benites"}
       </h2>
     </S.Wrapper>
   );
