@@ -84,11 +84,7 @@ const GithubProvider = ({ children }) => {
 
   const getUserRepos = (username) => {
     api.get(`users/${username}/repos`).then(({ data }) => {
-<<<<<<< HEAD
-      console.log("data: " + JSON.stringify(data));
-=======
       // console.log("data: " + JSON.stringify(data));
->>>>>>> cb785e47347656245ee9bda7efe4c126958fe2eb
       setGithubState((prevState) => ({
         ...prevState,
         repositories: data,
@@ -98,11 +94,7 @@ const GithubProvider = ({ children }) => {
 
   const getUserStarred = (username) => {
     api.get(`users/${username}/starred`).then(({ data }) => {
-<<<<<<< HEAD
-      console.log("data: " + JSON.stringify(data));
-=======
       // console.log("data: " + JSON.stringify(data));
->>>>>>> cb785e47347656245ee9bda7efe4c126958fe2eb
       setGithubState((prevState) => ({
         ...prevState,
         starred: data,
