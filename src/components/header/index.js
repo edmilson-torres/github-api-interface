@@ -16,8 +16,9 @@ const Header = () => {
       <S.Wrapper>
         <input
           type="text"
-          placeholder="Digite o username para pesquisa..."
+          placeholder="Digite o username..."
           onChange={(event) => setUsernameForSearch(event.target.value)}
+          onKeyPress={(e) => e.key === "Enter" && submitGetUser()}
         />
         <button type="submit" onClick={submitGetUser}>
           <span>Buscar</span>
