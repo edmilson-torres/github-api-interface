@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const WrapperLayout = styled.section`
   padding: 16px;
-  align-items: center;
+  /* align-items: center; */
   margin: auto;
 
   @media Screen and (min-width: 600px) {
@@ -10,10 +10,9 @@ export const WrapperLayout = styled.section`
     flex-direction: column;
   }
 
-  @media Screen and (min-width: 992px) {
+  @media Screen and (min-width: 1050px) {
     display: flex;
     flex-direction: row;
-    align-items: center;
     margin: auto;
     width: 1050px;
   }
