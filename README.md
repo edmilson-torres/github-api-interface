@@ -2,7 +2,7 @@ Projeto do bootcamp Eduzz Fullstack Developer #3 da DIO.
 Aula Criando um front-end totalmente componentizado na prática com ReactJS.  
 Instrutor [Matheus Benites](https://github.com/benits).
 
-### Modifications
+### New features
 
 - Layout (print of the finished project below)
 - Theme dark and light with toggle button
