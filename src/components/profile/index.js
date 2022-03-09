@@ -1,10 +1,11 @@
 import React from "react";
 import useGithub from "../../hooks/github-hooks";
 import * as S from "./styled";
+import { useTheme } from "styled-components";
 
 const Profile = () => {
   const { githubState } = useGithub();
-
+  const theme = useTheme();
   return (
     <S.Wrapper>
       <S.WrapperRow>
@@ -12,7 +13,7 @@ const Profile = () => {
         <S.WrapperUser>
           <a href={githubState.user.html_url} target="_blank" rel="noreferrer">
             <h1>{githubState.user.name}</h1>
-            {githubState.user.login}
+            <span style={{ color: theme.a }}>{githubState.user.login}</span>
           </a>
         </S.WrapperUser>
       </S.WrapperRow>
@@ -28,7 +29,12 @@ const Profile = () => {
           </S.WrapperUserGeneric>
           <S.WrapperUserGeneric>
             <h3>Blog:</h3>
-            <a href={githubState.user.blog} target="_blank" rel="noreferrer">
+            <a
+              href={githubState.user.blog}
+              style={{ color: theme.a }}
+              target="_blank"
+              rel="noreferrer"
+            >
               {githubState.user.blog}
             </a>
           </S.WrapperUserGeneric>

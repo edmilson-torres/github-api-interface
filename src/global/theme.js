@@ -29,6 +29,7 @@ export const darkTheme = {
   a: "#539BF5",
   noSearchImageBackground: "#2d333b",
 };
+
 export const ToggleTheme = styled.button`
   position: absolute;
   top: 85px;

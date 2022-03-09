@@ -29,7 +29,7 @@ export const WrapperFullName = styled.h2`
 export const WrapperLink = styled.a`
   font-size: 16px;
   margin: 8px 0;
-  color: ${({ theme }) => theme.a}; ;
+  color: ${({ theme }) => theme.a};
 `;
 
 export const WrapperDescription = styled.h3`
