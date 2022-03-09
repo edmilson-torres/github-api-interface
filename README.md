@@ -2,7 +2,7 @@ Projeto do bootcamp Eduzz Fullstack Developer #3 da DIO.
 Aula Criando um front-end totalmente componentizado na prática com ReactJS.  
 Instrutor [Matheus Benites](https://github.com/benits).
 
-### Modifications
+### New features
 
 - Layout (print of the finished project below)
 - Theme dark and light with toggle button
@@ -13,6 +13,8 @@ Instrutor [Matheus Benites](https://github.com/benits).
 - Error handler 404 "not found" and 403 "api rate-limit" showing error message
 
 ### Preview
+
+Live: https://github-api-interface-xi.vercel.app/
 
 Print of the finished project.
 
